@@ -1,5 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
 *{
+
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -31,7 +33,7 @@ nav{
 span{
     color: #f9004d;
 }
-div ul li{
+ div ul li{
     
     list-style-type: none;
     display: inline-block;
@@ -90,7 +92,7 @@ h4{
     
 }
 .newslatter form{
-    width: 500px;
+    width: 300px;
     max-width: 100%;
     position: relative;
 
@@ -114,8 +116,9 @@ h4{
     color: white;
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
     top: 6px;
-    right: 6px;
+    right: -140px;
 }
+
 /*about section*/
 .about1{
     width: 100%;
@@ -172,6 +175,33 @@ button:hover{
     border: 2px solid #f9004d;
     cursor: pointer;
 }
+/*my artwork sectio*/
+
+
+.pict{
+     width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+    display: inline-block;
+  
+
+}
+.peinture{
+    
+    padding: auto;
+    padding-left: 5%;
+    
+}
+h1{
+    color: burlywood;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+
 /*service section start*/
 
 .service{
@@ -235,6 +265,90 @@ h5{ color: white;
     transition: .4s;
 
 }
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column  ;
+    justify-content: center;
+}
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+.contact-me .button-two{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+footer{ 
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background:#101010 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .4s;
+
+}
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
+
+}
+
 
 
 
